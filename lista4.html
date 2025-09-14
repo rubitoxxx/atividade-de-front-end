@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubens Gabriel</title>
+    <!-- Vinculação do CSS Externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Título da página -->
+    <h1 id="titulo">Bem-vindo à Minha Página</h1>
+
+    <!-- Parágrafo -->
+    <p id="introducao">Uma Lista Dos Meus Livros Favoritos.</p>
+
+    <!-- Imagem -->
+    <img id="imagem-exemplo" src="lendo.png" alt="Imagem Exemplo">
+
+    <!-- Link -->
+    <a id="link-site" href="https://www.example.com" target="_blank">Clique aqui para visitar o site</a>
+
+    <!-- Lista ordenada começando com 1 -->
+    <h2>Meus Livros Favoritos</h2>
+    <ol id="livros-favoritos">
+        <li>A rainha vermelha</li>
+        <li>Ordem vermelha - filhos da degradação</li>
+        <li>Percy Jackson e os Olimpianos - A maldição do titã</li>
+        <li>Peças infernais - Anjo mecânico</li>
+        <li>Instrumentos Mortais - Cidade de Vidro</li>
+        <li>Biblioteca da meia-noite</li>
+    </ol>
+
+    <h3>Leituras Futuras</h3>
+    <!-- Lista não ordenada -->
+    <ul id="leituras-futuras">
+        <li>Ordem vermelha - Crianças do silêncio</li>
+        <li>Instrumentos Mortais - Cidade do Fogo Celestial</li>
+        <li>Os Artifícios das Trevas - Dama da meia-noite</li>
+        <li>Filhos de Sangue e Ossos</li>
+        <li>A Elite</li>
+    </ul>
+
+    <!-- Formulário -->
+    <h3>Escolha do Próximo Livro</h3>
+    <form action="#" method="post">
+        <!-- Campo de nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome"><br><br>
+
+        <!-- Campo de e-mail -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Digite seu e-mail"><br><br>
+
+        <!-- Campo de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required placeholder="Digite sua senha"><br><br>
+
+        <!-- Opções de radio button -->
+        <label>Escolha uma opção:</label><br>
+        <input type="radio" id="Quarta Asa – Rebecca Yarros" name="opcao" value="opcao1">
+        <label for="Quarta Asa – Rebecca Yarros">Quarta Asa – Rebecca Yarros</label><br>
+        <input type="radio" id="En Algún Lugar del Mar Más Azul" name="opcao" value="opcao2">
+        <label for="En Algún Lugar del Mar Más Azul">En Algún Lugar del Mar Más Azul</label><br>
+        <input type="radio" id="O Mapa das Terras Estranhas – Emily Wilde" name="opcao" value="opcao3">
+        <label for="O Mapa das Terras Estranhas – Emily Wilde">O Mapa das Terras Estranhas – Emily Wilde</label><br>
+        <input type="radio" id="Ruthless Vows – Rebecca Ross" name="opcao" value="opcao4">
+        <label for="Ruthless Vows – Rebecca Ross">Ruthless Vows – Rebecca Ross</label><br>
+        <input type="radio" id="O Deus das Florestas – Liz Moore" name="opcao" value="opcao5">
+        <label for="O Deus das Florestas – Liz Moore">O Deus das Florestas – Liz Moore</label><br><br>
+
+        <!-- Opções de checkbox -->
+        <label>Escolha seu genero preferido:</label><br>
+        <input type="checkbox" id="checkbox1" name="checkbox" value="checkbox1">
+        <label for="checkbox1">Romance</label><br>
+        <input type="checkbox" id="checkbox2" name="checkbox" value="checkbox2">
+        <label for="checkbox2">Ficção Científica</label><br>
+        <input type="checkbox" id="checkbox3" name="checkbox" value="checkbox3">
+        <label for="checkbox3">Fantasia</label><br>
+        <input type="checkbox" id="checkbox4" name="checkbox" value="checkbox4">
+        <label for="checkbox4">Terror</label><br>
+        <input type="checkbox" id="checkbox5" name="checkbox" value="checkbox5">
+        <label for="checkbox5">Romance Histórico</label><br><br>
+
+        <!-- Botão de envio -->
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
